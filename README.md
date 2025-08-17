@@ -71,7 +71,7 @@ según el tipo de prueba descrita en el documento de la actividad:
    python tests/functional_tests/test_add_owner_ui.py
    ```
 
-5. **✅Pruebas de carga**:
+5. **Pruebas de carga**:
 
    Con Locust instalado, lance el intérprete de Locust en
    `load_tests/locustfile.py` e indique el número de usuarios y la
