@@ -8,14 +8,7 @@ según el tipo de prueba descrita en el documento de la actividad:
   `acceptance` empleando la sintaxis de Behaviour‑Driven Development (BDD).
   Contienen escenarios escritos en castellano que describen el comportamiento
   esperado de la aplicación y un esqueleto de implementación con Selenium.
-
-- **Pruebas de sistema (API REST)**: en `system_tests` se encuentra
-  un script de Python que utiliza la biblioteca `requests` para
-  comprobar las operaciones CRUD básicas sobre la API REST del
-  back‑end (`/api/owners`). Estas pruebas siguen el flujo descrito
-  en el enunciado: buscar la entidad, crearla, volver a buscarla,
-  actualizarla, eliminarla y comprobar que ya no existe.
-
+  
 - **Pruebas funcionales (interfaz de usuario)**: el directorio
   `functional_tests` contiene un ejemplo de script con Selenium que
   navega por la aplicación web, rellena un formulario y verifica que
