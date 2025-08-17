@@ -52,7 +52,7 @@ según el tipo de prueba descrita en el documento de la actividad:
    escenarios Gherkin del directorio `acceptance`:
 
    ```sh
-   behave tests/acceptance
+   behave acceptance
    ```
 
 4. **Pruebas funcionales (UI)**:
@@ -61,7 +61,7 @@ según el tipo de prueba descrita en el documento de la actividad:
    `chromedriver` adecuado y de que la aplicación esté corriendo):
 
    ```sh
-   python tests/functional_tests/test_add_owner_ui.py
+   python functional_tests/test_add_owner_ui.py
    ```
 
 5. **Pruebas de carga**:
@@ -71,7 +71,7 @@ según el tipo de prueba descrita en el documento de la actividad:
    tasa de generación de nuevos usuarios:
 
    ```sh
-   locust -f tests/load_tests/locustfile.py --headless -u 1000 -r 50 \
+   locust -f load_tests/locustfile.py --headless -u 1000 -r 50 \
      --host=http://localhost:9966/petclinic --run-time 1m
    ```
 
